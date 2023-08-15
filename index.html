@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- Animate on scroll CDN -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Local CSS File(s) -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="link-container">
+          <li class="link-item"><a href="#travel">Travel</a></li>
+          <li class="link-item"><a href="#explore-section">Explore</a></li>
+          <li class="link-item">
+            <a href="#hero-section"
+              ><img src="img/logo.png" alt="" class="logo"
+            /></a>
+          </li>
+          <li class="link-item"><a href="#services">Services</a></li>
+          <li class="link-item"><a href="#booknow">Book Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="hero-section" id="hero-section">
+      <div class="hero-section-content" data-aos="fade-up">
+        <h1 class="hero-section-title">wonderful experience</h1>
+        <p class="hero-section-sub-heading">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <!-- background -->
+      <div class="background">
+        <img
+          src="Img/img1.png"
+          class="background-image"
+          alt="hero-section image"
+        />
+
+        <!-- grid -->
+        <div class="grid-slider">
+          <div class="grid-item hide"></div>
+          <div class="grid-item hide"></div>
+          <div class="grid-item hide"></div>
+          <div class="grid-item hide"></div>
+          <div class="grid-item hide"></div>
+          <div class="grid-item hide"></div>
+        </div>
+      </div>
+
+      <img
+        src="Img/down arrow.png"
+        class="scroll-down-icon"
+        alt="scroll down indicator"
+      />
+    </main>
+
+    <section class="explore-section" id="explore-section">
+      <h1 class="section-title" data-aos="fade-up">Explore the world</h1>
+      <p class="section-para" data-aos="fade-up">
+        Lorem Ipsum é simplesmente uma simulação de texto da indústria
+        tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
+        quando um impressor desconhecido pegou uma bandeja de tipos e os
+        embaralhou para fazer um livro de modelos de tipos.
+      </p>
+
+      <!-- grid -->
+
+      <div class="tours-container">
+        <div class="tour-card" data-aos="fade-up">
+          <img src="img/australia.png" alt="tour-image" class="tour-img" />
+          <div class="tour-body">
+            <h3 class="tour-name">Australia</h3>
+            <p class="tour-action">View city</p>
+          </div>
+        </div>
+        <div class="tour-card" data-aos="fade-up">
+          <img src="img/maldives.png" alt="tour-image" class="tour-img" />
+          <div class="tour-body">
+            <h3 class="tour-name">Maldives</h3>
+            <p class="tour-action">View city</p>
+          </div>
+        </div>
+        <div class="tour-card" data-aos="fade-up">
+          <img src="img/paris.png" alt="tour-image" class="tour-img" />
+          <div class="tour-body">
+            <h3 class="tour-name">Paris</h3>
+            <p class="tour-action">View city</p>
+          </div>
+        </div>
+        <div class="tour-card" data-aos="fade-up">
+          <img src="img/dubai.png" alt="tour-image" class="tour-img" />
+          <div class="tour-body">
+            <h3 class="tour-name">Dubai</h3>
+            <p class="tour-action">View city</p>
+          </div>
+        </div>
+        <div class="tour-card" data-aos="fade-up">
+          <img src="img/india.png" alt="tour-image" class="tour-img" />
+          <div class="tour-body">
+            <h3 class="tour-name">India</h3>
+            <p class="tour-action">View city</p>
+          </div>
+        </div>
+        <div class="tour-card" data-aos="fade-up">
+          <img src="img/italy.png" alt="tour-image" class="tour-img" />
+          <div class="tour-body">
+            <h3 class="tour-name">Italy</h3>
+            <p class="tour-action">View city</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- animate on scoll JS CDN -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Local JS File(s) -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
